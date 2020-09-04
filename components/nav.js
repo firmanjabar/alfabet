@@ -9,7 +9,7 @@ const links = [
 export default function Nav() {
   return (
     <nav>
-      <ul className='flex justify-between items-center py-6 px-40 bg-third'>
+      <ul className='flex justify-between items-center py-6 px-2 xsm:px-8 lg:px-40 bg-third'>
         <li>
           <Link href='/'>
             <a className='logo no-underline'>
@@ -17,7 +17,7 @@ export default function Nav() {
             </a>
           </Link>
         </li>
-        <ul className='flex justify-between items-center space-x-4'>
+        <ul className='justify-between items-center space-x-4 hidden xsm:flex'>
           {links.map(({ href, icon }) => (
             <li key={`${href}`}>
               <Link href={href}>
@@ -33,6 +33,13 @@ export default function Nav() {
             </a>
           </li>
         </ul>
+        <div className='flex xsm:hidden px-2'>
+          <Link href='/belajar'>
+            <a className='nav-item'>
+              <FontAwesomeIcon icon={['fas', 'font']} size='lg' />
+            </a>
+          </Link>
+        </div>
       </ul>
     </nav>
   );
