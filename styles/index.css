@@ -1,18 +1,35 @@
-@tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
-@tailwind components;
-/* Stop purging. */
-
-/* Write you own custom component styles here */
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+:root {
+  --color-primary: #41d3df;
+  --color-secondary: #059caa;
+  --color-third: #082030;
+  --color-fourth: #071925;
+  --color-font: #f1f1f1;
 }
 
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
+[data-theme='dark'] {
+  --color-primary: #7029aa;
+  --color-secondary: #420079;
+  --color-third: #0d051d;
+}
 
+@tailwind base;
+/* Write your own custom base styles here */
+body {
+  background-color: var(--color-fourth);
+}
+
+@tailwind components;
+/* Write you own custom component styles here */
+.logo {
+  @apply font-extrabold text-lg text-primary py-2 px-4;
+}
+
+.nav-item {
+  @apply p-4 text-primary no-underline;
+}
+.nav-item:hover {
+  @apply text-secondary;
+}
+
+@tailwind utilities;
 /* Your own custom utilities */

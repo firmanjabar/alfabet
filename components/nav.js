@@ -1,29 +1,39 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const links = [
-  { href: 'https://github.com/vercel/next.js', label: 'GitHub' },
-  { href: 'https://nextjs.org/docs', label: 'Docs' },
-]
+  { href: '/', icon: ['fas', 'home'] },
+  { href: '/belajar', icon: ['fas', 'font'] },
+];
 
 export default function Nav() {
   return (
     <nav>
-      <ul className="flex justify-between items-center p-8">
+      <ul className='flex justify-between items-center py-6 px-40 bg-third'>
         <li>
-          <Link href="/">
-            <a className="text-blue-500 no-underline">Home</a>
+          <Link href='/'>
+            <a className='logo no-underline'>
+              <FontAwesomeIcon icon={['fas', 'font']} />L - FABET
+            </a>
           </Link>
         </li>
-        <ul className="flex justify-between items-center space-x-4">
-          {links.map(({ href, label }) => (
-            <li key={`${href}${label}`}>
-              <a href={href} className="btn-blue no-underline">
-                {label}
-              </a>
+        <ul className='flex justify-between items-center space-x-4'>
+          {links.map(({ href, icon }) => (
+            <li key={`${href}`}>
+              <Link href={href}>
+                <a className='nav-item'>
+                  <FontAwesomeIcon icon={icon} size='lg' />
+                </a>
+              </Link>
             </li>
           ))}
+          <li>
+            <a href='https://github.com/firmanjabar/alfabet' className='nav-item'>
+              <FontAwesomeIcon icon={['fab', 'github-alt']} size='lg' />
+            </a>
+          </li>
         </ul>
       </ul>
     </nav>
-  )
+  );
 }

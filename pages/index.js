@@ -1,14 +1,18 @@
-import Nav from '../components/nav'
+import Nav from '../components/nav';
+import Head from '../components/head';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function IndexPage() {
   return (
-    <div>
+    <>
+      <Head />
       <Nav />
-      <div className="py-20">
-        <h1 className="text-5xl text-center text-accent-1">
-          Next.js + Tailwind CSS
+      <div className='py-10'>
+        <h1 className='text-font text-5xl text-center text-accent-1'>
+          Tesla
+          <FontAwesomeIcon icon={['fas', 'code']} />
         </h1>
       </div>
-    </div>
-  )
+    </>
+  );
 }
