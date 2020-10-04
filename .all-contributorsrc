@@ -24,6 +24,15 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "marzukiberg",
+      "name": "Marzuki",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44794118?v=4",
+      "profile": "https://marzukiberg.now.sh",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
