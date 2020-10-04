@@ -14,6 +14,15 @@
         "projectManagement",
         "code"
       ]
+    },
+    {
+      "login": "rkhaidir",
+      "name": "Pilkom Studio",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26153479?v=4",
+      "profile": "https://github.com/rkhaidir",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
