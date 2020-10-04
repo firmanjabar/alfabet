@@ -24,10 +24,6 @@ Future Features:
 4. User say "A", then the card A will pop up with image and audio. Implementing [annyang](https://github.com/TalAter/annyang).
 5. Code convention AirBnb style (clean code).
 
-Contributor 1
-
-[rakhmatkhaidir.my.id](Rakhmat Khaidir)
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
