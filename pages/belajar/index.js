@@ -45,6 +45,7 @@ class Belajar extends React.Component {
           image:
             'https://api.jatimnet.com/jinet/assets/media/filer_public/13/8f/138f2ac6-b3e8-403d-9d49-99944417e70a/gajah_1.jpg',
           alphabet: 'G',
+          sound: '/audios/G.mp3',
         },
         {
           image:
