@@ -4,14 +4,14 @@ the website is live: [https://alfabet.vercel.app/](https://alfabet.vercel.app/)
 
 Berikut list yang bisa dikerjakan pada project open-source belajar alfabet ini:
 
-1. [] Menambahkan suara ke folder public/audios.
+1. [ ] Menambahkan suara ke folder public/audios.
   - pergi ke [Sound of Text](https://soundoftext.com/)
   - ketikkan huruf diikuti dengan gambar dari huruf terseubut, misal: "E. Elang"
   - pilih indonesian voice
-  - ![SoT](https://i.ibb.co/MBMG2Xc/image.png).
+  - ![SoT](https://i.ibb.co/MBMG2Xc/image.png)
   - klik submit
   - download audio, dan masukkan ke dalam folder public/audios
-2. [] Menambah huruf, gambar dan audio pada data state di pages/belajar/index.js
+2. [ ] Menambah huruf, gambar dan audio pada data state di pages/belajar/index.js
   - Bisa mengikuti contoh yang sudah tersedia.
 
 Future Features:
