@@ -1,29 +1,22 @@
-# Tailwind CSS example
+# Hallo Contributor
 
-This is an example of using [Tailwind CSS](https://tailwindcss.com) in a Next.js project.
+the website is live: [https://alfabet.vercel.app/](https://alfabet.vercel.app/)
 
-## Deploy your own
+Berikut list yang bisa dikerjakan pada project open-source belajar alfabet ini:
 
-Deploy the example using [Vercel](https://vercel.com):
+1. [] Menambahkan suara ke folder public/audios.
+  - pergi ke [Sound of Text](https://soundoftext.com/)
+  - ketikkan huruf diikuti dengan gambar dari huruf terseubut, misal: "E. Elang"
+  - pilih indonesian voice
+  - ![SoT](https://i.ibb.co/MBMG2Xc/image.png).
+  - klik submit
+  - download audio, dan masukkan ke dalam folder public/audios
+2. [] Menambah huruf, gambar dan audio pada data state di pages/belajar/index.js
+  - Bisa mengikuti contoh yang sudah tersedia.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-This example is a basic starting point for using [Tailwind CSS](https://tailwindcss.com) with Next.js. It includes the following [PostCSS](https://github.com/postcss/postcss) plugins:
-
-- [postcss-preset-env](https://preset-env.cssdb.org/) - Adds stage 2+ features and autoprefixes
-
-To control the generated stylesheet's filesize, this example uses Tailwind CSS' [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+Future Features:
+1. Add landing page.
+2. Random image and audio that relate with the image.
+3. Edit design.
+4. User say "A", then the card A will pop up with image and audio. Implementing [annyang](https://github.com/TalAter/annyang).
+5. Code convention AirBnb style (clean code).

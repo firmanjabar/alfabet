@@ -11,29 +11,30 @@ class Belajar extends React.Component {
           image:
             'https://ceylonvegetable.com/wp-content/uploads/2020/05/16438126-7276481-image-a-3_1563970957529.jpg',
           alphabet: 'A',
-          sound: 'Hallo.mp3',
+          sound: '/audios/Hallo.mp3',
         },
         {
           image:
             'https://non-indonesia-distribution.brta.in/2020-04/17a1e5c137dab55c0ca6860571706698d59185cf.jpg',
           alphabet: 'B',
-          sound: 'B.mp3',
+          sound: '/audios/B.mp3',
         },
         {
           image: 'https://kumpulanilmu.com/wp-content/uploads/2019/05/fakta-unik-Cumi-cumi.jpg',
           alphabet: 'C',
-          sound: 'C.mp3',
+          sound: '/audios/C.mp3',
         },
         {
           image:
             'https://asset.kompas.com/crops/jglhOjivGnsycy3U10Q9zl2mFow=/0x39:676x490/750x500/data/photo/2020/02/20/5e4e5b40c6428.jpg',
           alphabet: 'D',
-          sound: 'D.mp3',
+          sound: '/audios/D.mp3',
         },
         {
           image:
             'https://cdn2.boombastis.com/wp-content/uploads/2017/06/Apakah-Kamu-Seekor-Elang.jpg',
           alphabet: 'E',
+          sound: '/audios/E.mp3',
         },
         {
           image:
