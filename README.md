@@ -38,7 +38,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://firmanjabar.my.id"><img src="https://avatars1.githubusercontent.com/u/45032367?v=4" width="100px;" alt=""/><br /><sub><b>Firman Abdul Jabar</b></sub></a><br /><a href="#projectManagement-firmanjabar" title="Project Management">📆</a> <a href="https://github.com/firmanjabar/alfabet/commits?author=firmanjabar" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/rkhaidir"><img src="https://avatars0.githubusercontent.com/u/26153479?v=4" width="100px;" alt=""/><br /><sub><b>Pilkom Studio</b></sub></a><br /><a href="https://github.com/firmanjabar/alfabet/commits?author=rkhaidir" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rkhaidir"><img src="https://avatars0.githubusercontent.com/u/26153479?v=4" width="100px;" alt=""/><br /><sub><b>Pilkom Studio</b></sub></a><br /><a href="https://github.com/firmanjabar/alfabet/commits?author=rkhaidir" title="Code">💻</a> <a href="#content-rkhaidir" title="Content">🖋</a></td>
   </tr>
 </table>
 
